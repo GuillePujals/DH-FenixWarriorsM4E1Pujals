@@ -1,9 +1,14 @@
 *{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    box-sizing: border-box;
+    
 }
 .header{
     background-color: #EAC926;
+    margin:auto;
+    width: 90vw;
+
 }
     .logo{
         width: 300px
@@ -26,7 +31,9 @@
     }
 
 
-
+    .nav-bar{
+        display:none;
+    }
         .nav-bar ul{
             padding-left: 0;
         }
@@ -49,27 +56,59 @@
         border-radius: 5px;
     }
 
-    
+.banner{
+    margin:auto;
+    background-color: #ebebeb;
+}   
       
-
-
-
-
-    .titulares{
-        font-size: 24px;
+    .banner img{
+        width: 90vw;
+        margin: auto;
     }
+.main{
+    width: 90vw;
+    margin:auto;
+}
+    .articulo{
+        margin: 0 0 10px 0;
+        border: 5px solid #ebebeb;
 
-    .precio{
-        font-size: 18px;
     }
+        .product_img{
+            width: 100%;
+        }
+        .detalles{
+            border-top: 1px solid #ebebeb;
+            padding: 15px;
+        }
+            .envio{
+                border:solid #39b54a 0.5px;
+                width: 30px;
+                height: 30px;
+                border-radius: 100px;
+                color: #39b54a;
+            }
 
-    .descuento{
-        font-size: 16px;
-    }
 
-    .descripcion{
-        font-size: 16px;
-    }
+            .titulares{
+                font-size: 24px;
+                background-color: #ebebeb;
+                padding:15px 5px;
+                margin: 0;
+            }
+
+            .precio{
+                font-size: 18px;
+            }
+
+            .descuento{
+                font-size: 16px;
+            }
+
+            .descripcion{
+                font-size: 16px;
+                display: none;
+            }
 
 .footer{
     text-align: center;
@@ -82,4 +121,24 @@
 
     .legales{
         text-align: left;
+    }
+
+    @media (min-width:361px){
+        .nav-bar{
+            display:block;
+        }
+        .burger-manu{
+            display:none;
+        }
+        .descripcion{
+        display:block;
+        }
+        .articulo{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+
+    }
+
+    @media (min-width:769px){
+        
     }
