@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.header{
+    background-color: #EAC926;
+}
+    .logo{
+        width: 300px
+    }
+    .barra-busqueda{
+        background-color: white;
+        color:#ebebeb;
+        width: 200px;
+        margin-left: 10px;
+        border: solid #666 0.5px;
+        margin-bottom: 0;
+    }
+    .lupa{
+        background-color: white;
+        margin-left: 10px;
+        border: solid #666 0.5px;
+        width: 15px;
+        padding-left:3px;
+        margin-top: 0;
+    }
+
+
+
+        .nav-bar ul{
+            padding-left: 0;
+        }
+
+            .nav-bar a{
+                color:#666;
+                text-decoration: none;
+            }
+    
+    .burger-manu{
+        background-color:  #03264C;
+        color: white;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: inline-block;
+        margin-right: 50px;
+        margin-left: 140px;
+        border-radius: 5px;
+    }
+
+    
+      
+
+
+
+
+    .titulares{
+        font-size: 24px;
+    }
+
+    .precio{
+        font-size: 18px;
+    }
+
+    .descuento{
+        font-size: 16px;
+    }
+
+    .descripcion{
+        font-size: 16px;
+    }
+
+.footer{
+    text-align: center;
+}
+
+    .icono-footer i{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .legales{
+        text-align: left;
+    }
