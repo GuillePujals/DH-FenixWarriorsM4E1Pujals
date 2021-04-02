@@ -19,12 +19,13 @@
         <div class="logo-barra-mano">
             <div class="logo-barra">
                 <img class="logo" src="/images/logo-mercado-liebre.svg" width="360" alt="Logo de MercadoLiebre">
-                <div class="barra-lupa">
-                    <p class="barra-busqueda">Buscar producto, marca</p>
+                <form method="GET" action="/" class="nav-bar-form">
+                    <input type="text" class="barra-busqueda" placeholder="Buscar producto, marca" name="barrabusqueda">
                     <div class="lupa">
                         <i class="fas fa-search"></i>
                     </div>
-                </div>
+
+                </form>
             </div>
             <p class="mano">
                 <i class="fas fa-hand-holding-usd">Comprá en cuotas y sin tarjeta de crédito</i>
@@ -52,6 +53,10 @@
         <div class="burger-manu">
             <i class="fa fa-bars burger"></i>
         </div>
+
+        <section class="banner">
+            <img src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas">
+        </section>
     </header>
     <section class="form">
         <form method="POST" action="/" class="register">
@@ -101,7 +106,7 @@
                     minlength="8">
             </div>
             <div class="buttons">
-                    <button type="submit" onclick="/" class="boton-formulario">Enviar
+                    <button type="submit" class="boton-formulario">Enviar
                     </button>
 
                 <button type="reset" class="boton-formulario">Reset</button>
@@ -117,47 +122,49 @@
 
 
     <footer class="footer">
-        <section>
-            <article>
-                <div class="icono-footer">
+        <div class="section-footer">
+            <section>
+                <article>
+                    <div class="icono-footer">
 
-                    <i class="fas fa-credit-card"></i>
+                        <i class="fas fa-credit-card"></i>
 
-                </div>
-                <h3>Pagá con tarjeta o en efectivo</h3>
-                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
-                    siempre es
-                    seguro!</p>
-            </article>
-        </section>
-        <section>
-            <article>
-                <div class="icono-footer">
+                    </div>
+                    <h3>Pagá con tarjeta o en efectivo</h3>
+                    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
+                        siempre es
+                        seguro!</p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <div class="icono-footer">
 
-                    <i class="fas fa-gift"></i>
+                        <i class="fas fa-gift"></i>
 
-                </div>
-                <h3>Envío gratis desde $2.500</h3>
-                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-                    productos. Es un beneficio de Mercado Puntos.</p>
-            </article>
-        </section>
-        <section>
-            <article>
-                <div class="icono-footer">
+                    </div>
+                    <h3>Envío gratis desde $2.500</h3>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                        productos. Es un beneficio de Mercado Puntos.</p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <div class="icono-footer">
 
-                    <i class="fas fa-user-shield"></i>
+                        <i class="fas fa-user-shield"></i>
 
-                </div>
-                <h3>Seguridad, de principio a fin</h3>
-                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                    porque estás siempre protegid@.</p>
-            </article>
-        </section>
-        <section>
-            <article class="legales">
-                <h5>Copyright © 1999-2021 MercadoLiebre S.R.L.</h5>
-            </article>
+                    </div>
+                    <h3>Seguridad, de principio a fin</h3>
+                    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                        porque estás siempre protegid@.</p>
+                </article>
+            </section>
+            <section>
+        </div>
+        <article class="legales">
+            <h5>Copyright © 1999-2021 MercadoLiebre S.R.L.</h5>
+        </article>
         </section>
     </footer>
 </body>
