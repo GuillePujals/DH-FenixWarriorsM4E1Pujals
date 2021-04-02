@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: cadetblue;
+    margin: 0px;
+   
+}
+    header{
+        background-color: rgb(33, 145, 145);
+    }
+
+    .form-titulo{
+        color:rgb(228, 156, 74);
+        
+         text-align: center;
+    }
+ 
+    .form-registro{
+     
+        background-color: aliceblue;
+    
+    }
+
+
+       .form-inputs{
+         display:flex;
+          flex-flow:column wrap;
+          padding: 20px 70px;
+            
+         }  
+    
+         .mitad{   
+          display: flex;    
+          flex-wrap: wrap;    
+             } 
+
+         .interests{
+           background-color: chartreuse;            
+           }
+    input{
+        flex: 1 1 40%;
+      
+        margin: 10px;
+        border-radius: 3px;
+       }
+    
+    .botones .btn-reset{
+    background-color:goldenrod;
+    color: aliceblue;
+    }
+
+    botones .btn-enviar{
+    background-color: forestgreen;
+    color: aliceblue;
+}
+
