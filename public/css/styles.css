@@ -108,7 +108,13 @@
                 color: #39b54a;
                 
             }
-
+            main section div.articulos-padre article i {
+                transition: transform 1s;
+            }
+            
+            main section div.articulos-padre article:hover i{
+                transform: rotate(-90deg);
+            }
 
             .titulares{
                 font-size: 24px;
@@ -135,10 +141,9 @@
                 font-size: 16px;
                 display: none;
                 margin-bottom: 10px;
+                color: #666;
             }
-            .descripcion:hover{
-                display: block;
-            }
+            main section article:hover h4.descripcion { display: block; } 
 /*================== formulario register =======================*/
 .form{
     background-color: gainsboro;
