@@ -147,6 +147,8 @@
 /*================== formulario register =======================*/
 .form{
     background-color: gainsboro;
+    display:flex;
+    justify-content: center;
 }
 .register{
     padding: 20px 15px;
@@ -327,6 +329,12 @@
             }
             .barra-busqueda{
                 width:85%;
+            }
+            .register{
+                width: 500px;
+            }
+            .login{
+                width: 500px;
             }
             .section-footer{
                 display: flex;
